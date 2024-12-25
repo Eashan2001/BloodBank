@@ -1,0 +1,82 @@
+/* Navbar Styling */
+.navbar {
+  position: fixed; /* Fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's on top */
+  padding: 8px 16px; /* Reduced padding for a more compact navbar */
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for some depth */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.5rem; /* Smaller font size */
+  font-weight: bold; /* Bold for emphasis */
+  color: hsl(0, 100%, 50%); /* Blue color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Navbar Menu Items */
+.navbar-nav {
+  margin-left: auto; /* Align items to the right */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px; /* Space between items */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem; /* Smaller font size */
+  color: #333; /* Dark color */
+  padding: 5px 10px; /* Reduced padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Navbar Links - Active State */
+.navbar-nav .nav-link.active {
+  color: hsl(356, 100%, 50%); /* Blue active link color */
+}
+
+/* Login Button Styling */
+.custom-button {
+  background-color: #ff0004; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  font-size: 1rem; /* Slightly smaller font */
+  padding: 8px 15px; /* Smaller padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Hover Effect for Button */
+.custom-button:hover {
+  background-color: #f92133; /* Darker blue on hover */
+  cursor: pointer;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 8px 10px; /* Further reduced padding for mobile */
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 10px; /* Less space on mobile */
+  }
+
+  .custom-button {
+    font-size: 0.9rem; /* Smaller button text on mobile */
+    padding: 7px 12px; /* Adjust button size for mobile */
+  }
+}
+
+
+
+
+
+
+
+

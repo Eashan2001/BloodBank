@@ -1,0 +1,30 @@
+
+/* conainer */
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next row */
+    padding-top: 100px;
+    background-color: #f9f9f9;
+    justify-content: center; /* Center the rows horizontally */
+  }
+  
+  .container {
+   
+    min-width: 500px; /* Minimum width for smaller screens */
+    max-width: 300px; /* Optional: Restrict maximum width */
+    min-height: 200px; /* Minimum width for smaller screens */
+    max-height: 200px; /* Optional: Restrict maximum width */
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .paragraph{
+   justify-items: center;
+   padding-top: 20px;
+   color: red;
+    
+  }
